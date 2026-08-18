@@ -52,8 +52,10 @@ img{
 #social{
     justify-content: center;
     display: flex;
-    margin-top: 20px;
-    padding: 70px;
+}
+
+#social a{
+    padding-right: 10px;
 }
 /*we are coming soon*/
 #Coming{
