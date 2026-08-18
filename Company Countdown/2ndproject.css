@@ -1,9 +1,9 @@
-body{ padding:30px ;
+body{ 
+    padding:30px ;
     background: linear-gradient(to top, rgb(145, 46, 237), rgb(175, 14, 203));
-}
-div{
     color: aliceblue;
 }
+
 /*all contents with pruple colors*/
 .purple{
     color: rgb(64, 4, 120);
@@ -23,7 +23,8 @@ img{
 #love img{
     width: 17px;
 }
-/*Main div*/
+
+/*Countdown container*/
 #main_div{
     background-color: rgb(32, 22, 22);
     margin-top: 100px;
@@ -44,8 +45,15 @@ img{
 }
 #time_div{
     display: flex;
-    padding-left: 250px;
-    
+    justify-content: center;
+    padding: 25px;
+}
+
+#social{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    padding: 70px;
 }
 /*we are coming soon*/
 #Coming{
