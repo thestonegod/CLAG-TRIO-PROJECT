@@ -49,15 +49,21 @@ img{
     width: 130px; height: 75px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;  
 }
 
 #time_div{
     display: flex;
     justify-content: center;
+}
+
+.period{
+    display:flex;
+    display: block;
 }
 
 #social{
