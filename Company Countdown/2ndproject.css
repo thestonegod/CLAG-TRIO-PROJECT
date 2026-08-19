@@ -1,12 +1,16 @@
 body{ 
     padding:30px ;
-    background: linear-gradient(to top, rgb(145, 46, 237), rgb(175, 14, 203));
+    background: linear-gradient(to top, rgb(114, 58, 244), rgb(145, 44, 237));
     color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 /*all contents with pruple colors*/
 .purple{
     color: rgb(64, 4, 120);
+    margin-left: 3px;
    
 }
 p{
@@ -30,8 +34,11 @@ img{
     margin-top: 100px;
     margin-bottom: 100px;
     height: 450px;
+    width: 400px;   
     border-radius: 20px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1px;
@@ -56,6 +63,18 @@ img{
 
 #social a{
     padding-right: 10px;
+}
+
+#love{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 3px;
+}
+
+#love img{
+    margin-left: 3px;
+    margin-right: 3px;
 }
 /*we are coming soon*/
 #Coming{
