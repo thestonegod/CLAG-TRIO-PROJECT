@@ -34,26 +34,30 @@ img{
     margin-top: 100px;
     margin-bottom: 100px;
     height: 450px;
-    width: 400px;   
+    width: 800px;   
     border-radius: 20px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1px;
 }
+
 #time{
     border: solid;
     border-color: blueviolet;
-    width: 150px; height: 75px;
-    margin: 3px;
+    width: 130px; height: 75px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
 }
+
 #time_div{
     display: flex;
     justify-content: center;
-    padding: 25px;
 }
 
 #social{
