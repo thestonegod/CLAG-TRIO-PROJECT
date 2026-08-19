@@ -45,10 +45,12 @@ img{
 
 #time{
     border: solid;
+    box-sizing: border-box;
     border-color: blueviolet;
     width: 130px; height: 75px;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 15px;
@@ -61,10 +63,7 @@ img{
     justify-content: center;
 }
 
-.period{
-    display:flex;
-    display: block;
-}
+
 
 #social{
     justify-content: center;
