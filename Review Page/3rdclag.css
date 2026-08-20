@@ -16,10 +16,20 @@ h1{
 }
 /*Parent div tag*/
 .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Boxes contain name,image and location */
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 /*Profile edit*/
@@ -31,6 +41,46 @@ h1{
     border-color: rgb(7, 4, 4);
     border: solid;
     border-radius: 800px;
+}
+
+/*contains stars and text*/
+.hippo{
+    background: white;
+    box-shadow: 0 4px 10px;
+    padding: 20px;
+    color: black;
+
+}
+
+/**/
+.boxes:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.hippo:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.boxes:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.hippo:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.boxes:nth-child(5) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.hippo:nth-child(6) {
+    grid-column: 3;
+    grid-row: 2;
 }
 
 /*stars*/
@@ -47,19 +97,8 @@ h1{
       color: black;
       font-size: small;
 }
-/*contains stars and text*/
-.hippo{
-      background: white;
-      box-shadow: 0 4px 10px;
-      padding: 20px;
-      color: black;
-}
+
 /*Names of those who wrote the review*/
 h3{
     color: black;
-}
-/*Boxes contain name,image and location */
-.boxes{
-    display: flex;
-    padding: 20px;
 }
