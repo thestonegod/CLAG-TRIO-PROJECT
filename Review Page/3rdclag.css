@@ -2,7 +2,7 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica,;
-    background-color: linear-gradient(to bottom right, #7f00ff,#00d2ff);
+    background-color: linear-gradient(to bottom right, (#7f00ff),(#00d2ff));
     text-align: center;
 }
 /*The section tag containing every thing*/
@@ -79,6 +79,8 @@ h1{
 /*stars*/
 #stars{
     width: 100px;
+    display: block;
+    margin: 0 auto 12px;
 }
 /*location*/
 #loc{
@@ -88,8 +90,11 @@ h1{
 /*comments in the paragrph*/
 .text{
     color: black;
-    font-size: small;
     margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    max-width: 300px;
+    margin: 0 0 40px 0 auto;
 }
 
 /*Names of those who wrote the review*/
