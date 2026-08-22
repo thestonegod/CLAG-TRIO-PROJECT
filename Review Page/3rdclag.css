@@ -80,7 +80,7 @@ h1{
 #stars{
     width: 100px;
     display: block;
-    margin: 0 auto 12px;
+    margin: -20px auto 12px;
 }
 /*location*/
 #loc{
@@ -94,7 +94,7 @@ h1{
     font-size: 0.85rem;
     line-height: 1.5;
     max-width: 300px;
-    margin: 0 0 40px 0 auto;
+    margin: -20px auto 0  ;
 }
 
 /*Names of those who wrote the review*/
